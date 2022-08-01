@@ -1,5 +1,8 @@
+LS_COLORS="ow=1;105;30:di=1;34"
+export LS_COLORS
+
+alias ls='ls --color=auto'
 alias ll='ls -lahG'
-alias cd..='cd ..'
 
 alias repo='cd ~/Work/Repos/my-repo'
 alias eclipse='nohup /home/vagrant/Work/eclipse-java-2021-03-R-linux-gtk-x86_64/eclipse/eclipse > /dev/null 2>&1 &'

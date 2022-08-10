@@ -1,6 +1,8 @@
 LS_COLORS="ow=1;105;30:di=1;34"
 export LS_COLORS
 
+HISTCONTROL=ignorespace
+
 alias ls='ls --color=auto'
 alias ll='ls -lahG'
 
